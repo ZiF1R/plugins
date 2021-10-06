@@ -1,6 +1,6 @@
 # Usage
 
-**needs [modal](https://github.com/ZiF1R/plugins/tree/main/modal) plugin*
+**needs [modal](https://github.com/ZiF1R/plugins/tree/main/Modal) plugin*
 
 ```HTML
 <form>
