@@ -1,25 +1,9 @@
 # Usage
 
-**needs [modal](https://github.com/ZiF1R/plugins/tree/main/Modal) plugin*
-
 ```HTML
-<form>
-    <fieldset>
-        <legend>Settings</legend>
-        <label for="length">
-            <span>Password length: </span>
-            <input type="number" id="num" min="6" max="50" value="6">
-        </label>
-        <label for="bigChar">
-            <input type="checkbox" id="bigChar" name="settings">
-            <span>Use big letters</span>
-        </label>
-        <label for="nums">
-            <input type="checkbox" id="nums" name="settings">
-            <span>Use numbers</span>
-        </label>
-    </fieldset>
-</form>
+<input id="length" type="number" min="6" max="50" value="6">
+<input id="bigChar" type="checkbox" name="settings">
+<input id="nums" type="checkbox" name="settings">
 
 <button class="generate" onclick="generatePass()">Generate</button>
 ```
