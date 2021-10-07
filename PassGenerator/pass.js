@@ -17,7 +17,7 @@ function generatePass() {
     $("#nums").checked && settings.push(getNum)
 
     let pass = "";
-    for(let i = 0; i < +$("#num").value; i++){
+    for(let i = 0; i < +$("#length").value; i++){
         let symb = (Math.random() * (settings.length - 1)).toFixed(0);
         pass += settings[symb]();
     }
